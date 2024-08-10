@@ -7,7 +7,7 @@ public class DataProviders {
 
 	public Object[][] getData() throws Exception {
 String path=".//testData//TestData.xlsx";
-ExcelUtility excelUtility=new ExcelUtility(path);
+ExcelUtility excelUtility=new ExcelUtility(path); 
 		int rows = excelUtility.getRowCount("Sheet1");
 		int column = excelUtility.getCellCount("Sheet1", 1);
 		String loginData[][] = new String[rows][column];
