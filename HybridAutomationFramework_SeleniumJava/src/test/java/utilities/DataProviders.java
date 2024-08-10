@@ -9,7 +9,9 @@ public class DataProviders {
 String path=".//testData//TestData.xlsx";
 ExcelUtility excelUtility=new ExcelUtility(path); 
 		int rows = excelUtility.getRowCount("Sheet1");
+		
 		int column = excelUtility.getCellCount("Sheet1", 1);
+		
 		String loginData[][] = new String[rows][column];
 
 		for (int i = 1; i <= rows; i++) {
