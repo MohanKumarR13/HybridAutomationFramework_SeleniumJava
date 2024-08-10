@@ -1,0 +1,6 @@
+Logging Record all the events in the form of text
+
+Log Levels All < Trace < Debug < Info < Warn < Error < Fatal < Off
+
+Appenders  Where to generate logs (Console/File)
+Loggers - What type of logs generate (All <  Trace < Debug < Info < Warn < Error < Fatal < Off)
