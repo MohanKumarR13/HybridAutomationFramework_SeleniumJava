@@ -1,0 +1,53 @@
+23:49:02.862 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
+23:49:16.992 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
+23:50:41.223 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\91995\git\HybridAutomationFramework_SeleniumJava\HybridAutomationFramework_SeleniumJava\testng.xml
+
+23:50:44.574 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 127.0.2651.98 (resolved driver for Edge 127)
+23:50:44.717 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\91995\.cache\selenium\msedgedriver\win64\127.0.2651.98\msedgedriver.exe
+23:51:18.068 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
+23:51:31.558 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
+23:54:08.818 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\91995\git\HybridAutomationFramework_SeleniumJava\HybridAutomationFramework_SeleniumJava\testng.xml
+
+23:54:13.204 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 127.0.2651.98 (resolved driver for Edge 127)
+23:54:14.229 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\91995\.cache\selenium\msedgedriver\win64\127.0.2651.98\msedgedriver.exe
+23:54:49.320 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
+23:55:07.240 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
+23:55:45.501 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\91995\git\HybridAutomationFramework_SeleniumJava\HybridAutomationFramework_SeleniumJava\testng.xml
+
+23:55:50.215 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 127.0.2651.98 (resolved driver for Edge 127)
+23:55:50.558 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\91995\.cache\selenium\msedgedriver\win64\127.0.2651.98\msedgedriver.exe
+23:56:44.756 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
+23:56:45.085 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
+23:56:56.478 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\91995\git\HybridAutomationFramework_SeleniumJava\HybridAutomationFramework_SeleniumJava\testng.xml
+
+23:57:00.917 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 127.0.2651.98 (resolved driver for Edge 127)
+23:57:01.119 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\91995\.cache\selenium\msedgedriver\win64\127.0.2651.98\msedgedriver.exe
+23:57:38.039 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
+23:58:01.260 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\91995\git\HybridAutomationFramework_SeleniumJava\HybridAutomationFramework_SeleniumJava\testng.xml
+
+23:58:06.178 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 127.0.2651.98 (resolved driver for Edge 127)
+23:58:06.665 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\91995\.cache\selenium\msedgedriver\win64\127.0.2651.98\msedgedriver.exe
+23:58:16.177 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
+23:58:42.498 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
+23:59:00.424 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
+00:01:12.309 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\91995\git\HybridAutomationFramework_SeleniumJava\HybridAutomationFramework_SeleniumJava\testng.xml
+
+00:01:17.811 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 127.0.2651.98 (resolved driver for Edge 127)
+00:01:18.525 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\91995\.cache\selenium\msedgedriver\win64\127.0.2651.98\msedgedriver.exe
+00:08:02.829 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\91995\git\HybridAutomationFramework_SeleniumJava\HybridAutomationFramework_SeleniumJava\testng.xml
+
+00:08:06.102 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 127.0.2651.98 (resolved driver for Edge 127)
+00:08:06.354 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\91995\.cache\selenium\msedgedriver\win64\127.0.2651.98\msedgedriver.exe
+00:08:35.251 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
+00:08:47.644 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
+00:11:15.777 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\91995\git\HybridAutomationFramework_SeleniumJava\HybridAutomationFramework_SeleniumJava\testng.xml
+
+00:11:19.976 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 127.0.2651.98 (resolved driver for Edge 127)

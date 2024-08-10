@@ -10,26 +10,46 @@ public class AccountRegister extends BaseClass {
 
 	@Test
 	public void verify_register() {
-		HomePage hp = new HomePage(driver);
-		hp.clickMyAccount();
-		hp.clickRegister();
+		logger.info("===Starting Test Case===");
+		try {
+			HomePage hp = new HomePage(driver);
+			hp.clickMyAccount();
+			logger.info("===Click My Account===");
 
-		AccountRegisterationPage accountRegisterationPage = new AccountRegisterationPage(driver);
+			hp.clickRegister();
+			logger.info("===Click Register Link===");
 
-		accountRegisterationPage.setTxtFirstName(randomString().toUpperCase());
-		accountRegisterationPage.setTxtLastName(randomString().toUpperCase());
-		accountRegisterationPage.setTxtEmail(randomString() + "@gmail.com");
-		accountRegisterationPage.setTxtTelePhone(randomNumber());
+			AccountRegisterationPage accountRegisterationPage = new AccountRegisterationPage(driver);
+			logger.info("===Provide Customer Details===");
 
-		String passwd = randomAlphaNumeric();
-		accountRegisterationPage.setTxtPassword(passwd);
-		accountRegisterationPage.setTxtConfrimPassword(passwd);
+			accountRegisterationPage.setTxtFirstName(randomString().toUpperCase());
+			accountRegisterationPage.setTxtLastName(randomString().toUpperCase());
+			accountRegisterationPage.setTxtEmail(randomString() + "@gmail.com");
+			accountRegisterationPage.setTxtTelePhone(randomNumber());
 
-		accountRegisterationPage.setCheckPolicy();
-		accountRegisterationPage.setBtnContinue();
+			String passwd = randomAlphaNumeric();
+			accountRegisterationPage.setTxtPassword(passwd);
+			accountRegisterationPage.setTxtConfrimPassword(passwd);
 
-		String confirmMsg = accountRegisterationPage.getConfirmationMessage();
-		Assert.assertEquals(confirmMsg, "Your Account Has Been Created!");
+			accountRegisterationPage.setCheckPolicy();
+			accountRegisterationPage.setBtnContinue();
+			logger.info("===Validate Expected Message===");
+
+			String confirmMsg = accountRegisterationPage.getConfirmationMessage();
+			if (confirmMsg.equals("Your Account Has Been Created!")) {
+				Assert.assertTrue(true);
+			}else {
+				logger.error("Test Failed");
+				logger.debug("Debug logs");
+				Assert.assertTrue(false);
+
+			}
+			//Assert.assertEquals(confirmMsg, "Your Account Has Been Created!");
+		} catch (Exception e) {
+			
+			Assert.fail();
+		}
+		logger.info("===Completed Test Case===");
 
 	}
 
