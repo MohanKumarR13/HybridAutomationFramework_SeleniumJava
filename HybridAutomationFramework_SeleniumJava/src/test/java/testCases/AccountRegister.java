@@ -1,14 +1,15 @@
-package testBases;
+package testCases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.AccountRegisterationPage;
 import pageObjects.HomePage;
+import testBase.BaseClass;
 
 public class AccountRegister extends BaseClass {
 
-	@Test
+	@Test(groups = {"regression","master"})
 	public void verify_register() {
 		logger.info("===Starting Test Case===");
 		try {
@@ -36,15 +37,14 @@ public class AccountRegister extends BaseClass {
 			logger.info("===Validate Expected Message===");
 
 			String confirmMsg = accountRegisterationPage.getConfirmationMessage();
-			if (confirmMsg.equals("Your Account Has Been Created!")) {
-				Assert.assertTrue(true);
-			}else {
-				logger.error("Test Failed");
-				logger.debug("Debug logs");
-				Assert.assertTrue(false);
-
-			}
-			//Assert.assertEquals(confirmMsg, "Your Account Has Been Created!");
+			
+			  if (confirmMsg.equals("Your Account Has Been Created!")) {
+			  Assert.assertTrue(true); }else { logger.error("Test Failed");
+			  logger.debug("Debug logs"); Assert.assertTrue(false);
+			  
+			  }
+			 
+			Assert.assertEquals(confirmMsg, "Your Account Has Been Created!");
 		} catch (Exception e) {
 			
 			Assert.fail();

@@ -1,12 +1,28 @@
-00:11:20.179 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\91995\.cache\selenium\msedgedriver\win64\127.0.2651.98\msedgedriver.exe
-00:11:44.542 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
-00:12:03.770 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
-00:13:15.108 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\91995\git\HybridAutomationFramework_SeleniumJava\HybridAutomationFramework_SeleniumJava\testng.xml
-
-00:13:18.372 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 127.0.2651.98 (resolved driver for Edge 127)
-00:13:18.947 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\91995\.cache\selenium\msedgedriver\win64\127.0.2651.98\msedgedriver.exe
-00:13:45.856 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
-00:13:52.172 [TestNG-tests-1] INFO  testBases.LoginTests - Login Test Completed
-00:13:52.188 [TestNG-tests-1] INFO  testBases.LoginTests - ===Login Test===
-00:14:06.458 [TestNG-tests-1] INFO  testBases.LoginTests - Login Test Completed
+20:35:00.967 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+20:36:10.452 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+20:37:11.613 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+20:40:02.805 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+20:41:32.560 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+20:42:36.714 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+20:47:54.211 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+20:51:25.814 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+20:54:20.068 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+20:58:01.941 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+20:59:02.634 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:02:15.517 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:03:50.351 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:04:18.074 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:06:37.887 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:07:35.543 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:08:02.142 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:09:41.440 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:11:21.452 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:11:32.793 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:20:52.014 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:21:18.220 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:23:27.086 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:24:06.356 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:25:05.355 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:25:47.585 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:27:56.085 [main] INFO  testCases.AccountRegister - ===Starting Test Case===
+21:30:48.753 [main] INFO  testCases.AccountRegister - ===Starting Test Case===

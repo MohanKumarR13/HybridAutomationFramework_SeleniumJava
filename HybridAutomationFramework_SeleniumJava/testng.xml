@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite"  parallel="tests" >
-	<test name="Account Register Chrome" >
-		<parameter name="os" value="Windows" />
-		<parameter name="browser" value="edge" />
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="master" />
+			<include name="regression" />
+			<include name="sanity" />
+			<include name="datadriven" />
+
+
+
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="utilities.Reporting" />
+	</listeners>
+	<test name="Account Register Chrome">
+		<parameter name="platformName" value="Windows 11" />
+		<parameter name="browserName" value="MicrosoftEdge" />
 		<classes>
-			<class name="testBases.LoginTests" />
+			<class name="testCases.AccountRegister" />
+
 		</classes>
 	</test>
 

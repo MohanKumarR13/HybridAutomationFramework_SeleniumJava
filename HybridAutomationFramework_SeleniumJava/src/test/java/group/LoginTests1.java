@@ -1,4 +1,4 @@
-package testBases;
+package group;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -6,10 +6,11 @@ import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
+import testBase.BaseClass;
 import utilities.DataProviders;
 
-public class LoginTests extends BaseClass {
-	@Test(dataProvider = "testdata", dataProviderClass = DataProviders.class)
+public class LoginTests1 extends BaseClass {
+	@Test(dataProvider = "testdata", dataProviderClass = DataProviders.class,groups = "datadriven")
 	public void verifyLogin(String mail, String pwrd, String exp) {
 		logger.info("===Login Test===");
 		try {
